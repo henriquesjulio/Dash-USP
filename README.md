@@ -6,8 +6,8 @@ Mapa com as Unidades da USP
 
 Evolução Orçamentária
 
-<img src="/assets/Evolução Orçamentária.png">
+<img src="/assets/Evolução orçamentária.png">
 
 Diferença Orçamentária
 
-<img src="/assets/Diferença Orçamentária.png">
+<img src="/assets/Diferença orçamentária.png">
