@@ -1,0 +1,128 @@
+/*Imports das fontes de textos*/
+@font-face {
+    font-family: 'Nexa';
+    src: url('nexa-extralight.ttf') format('truetype'),
+       url('nexa-extralight.woff2') format('woff2'),
+       url('nexa-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NexaRegular';
+    src: url('nexa-regular.otf') format('truetype'),
+       url('nexa-regular.woff2') format('woff2'),
+       url('nexa-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Estilização do background do dashboard*/
+body{
+    background: linear-gradient(#64c4d2,#64c4d2, #1094ab,#1094ab, #1094ab, #1094ab,#1094ab, #64c4d2) fixed;
+}
+
+/*Estilização do header*/
+.header_icon{
+    background-color : transparent;
+    border-color : transparent;
+    color : rgba(255, 255, 255, 0.6);
+    font-size: 1.6rem;
+    padding: 0;
+    font-family: Nexa;
+}
+.header_icon:hover{
+    transition: 0.4s ease-out;
+    color: white ;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/*Estilização dos cards*/
+.card1_linha1{
+    background-color: rgba(27, 48, 74, 0);
+    border: transparent;
+}
+.card2_linha1{
+    background-color: transparent;
+    border-color: transparent;
+}
+.cards_linha2{
+    background-color: rgba(27, 48, 74, 0.1);
+}
+
+/* Estilização do menu dropdown*/
+.Select-control {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255,255,255,1);
+}
+.is-open>.Select-control{
+    background-color: rgba(252,180,33,0.7);
+    border-color: rgba(255, 255, 255, 0.1);
+    
+}
+.is-focused:not(.is-open)>.Select-control{
+    border-color: rgb(34, 107, 150) !important;
+}
+.Select-menu-outer {
+    background-color: rgba(252,180,33,0.7);
+    border-color: rgba(255,255,255,0);
+    color:rgba(255, 255, 255, 1);
+    font-size: 1.1rem;
+    font-family: NexaRegular;
+}
+.Select--multi .Select-value{
+    background-color: rgba(252,180,33,0.7);
+    color: rgba(255, 255, 255, 1);
+    border-color:rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+    font-family: NexaRegular;
+}
+.Select-value-icon{
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+.Select-value-icon:hover{
+    color: rgb(34, 107, 150) !important;
+}
+.Select-value-label {
+    color: white !important;
+}
+
+/* Estilização das fontes: cores, tamanhos e famlias*/
+.textoPrincipal{
+    font-size: 2.5rem;
+    color: white;
+    font-family: NexaRegular;
+}
+.textoSecundario{
+    font-size: 1.8rem;
+    color: white;
+    font-family: NexaRegular;
+}
+.textoTerciario{
+    font-size: 1.4rem;
+    color: white;
+    font-family: NexaRegular;
+}
+.textoQuartenario{
+    font-size: 1.2rem;
+    color: rgba(252,180,33,1);
+    display: inline;
+    font-family: NexaRegular;
+}
+.textoQuartenarioBranco{
+    font-size: 1.2rem;
+    color: white;
+    display: inline;
+    font-family: NexaRegular;
+}
+h5 {
+    display: inline;
+}
+
+/* Estilização graph*/
+.graph_line{
+    height: 370px;
+}
+
