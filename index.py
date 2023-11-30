@@ -1,15 +1,14 @@
+# Importando bibliotecas
+
 from dash import html, dcc
 from dash.dependencies import Input, Output, State, ALL
 import dash_bootstrap_components as dbc
 import pandas as pd
-
 from app import *
-
 import numpy as np
 import plotly.express as px 
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
-
 from menu_styles import *
 
 # Carregamento de dados
@@ -714,7 +713,7 @@ def graph(data, unidade, ano, pathname):
 # =========  Run server  =========== #
 
 if __name__ == "__main__":
-    app.run_server(debug=True,port=8080,host='0.0.0.0')
+    app.run_server(debug=False)
  
  
  
