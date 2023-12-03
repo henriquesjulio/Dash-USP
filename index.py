@@ -553,7 +553,7 @@ def graph(data, unidade, ano, pathname):
         
         dff_coord = dff.groupby(['Unidade de Despesa','lat','lng'])[['Dotação Atual (R$)','Pago (R$)']].sum().reset_index()
         
-        mapbox_token = 'pk.eyJ1IjoiaGVucmlxdWVqdWxpbyIsImEiOiJjbHA4dGVtZHMyNXVkMnFucjg1eXpnanN6In0.U-7X1Kd-3Hh9Mgx_re8CUw'
+        mapbox_token = 'CHAVE DE ACESSO'
         
         map_graph = px.scatter_mapbox(dff_coord,
                                       lat = dff_coord['lat'],

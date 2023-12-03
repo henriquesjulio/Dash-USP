@@ -52,7 +52,7 @@ print('Orcamento.csv criado.')
 
 unidades = df['Unidade de Despesa'].unique()
 
-api_key = 'AIzaSyB7ArOpFjIpjHJJ3hmVgged8E3p1TNh77I'
+api_key = 'CHAVE DE ACESSO'
 
 serviceurl = "https://maps.googleapis.com/maps/api/geocode/json?"
 
